@@ -1,0 +1,1015 @@
+ 
+****************************************
+Report : cell
+Design : MCU
+Version: L-2016.03-SP1
+Date   : Sat Jun 10 23:50:26 2023
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+CORE                      aftab_core_size32               263617.178829
+                                                                    h, n, p
+CORE_memData1_tri_0_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+CORE_memData1_tri_1_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+CORE_memData1_tri_2_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+CORE_memData1_tri_3_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+CORE_memData1_tri_4_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+CORE_memData1_tri_5_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+CORE_memData1_tri_6_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+CORE_memData1_tri_7_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+EXTERNAL_BUS              externalBus                     996.620789
+                                                                    h, n
+FLASH                     FLASH_Controller                33325.330820
+                                                                    h, n
+INTERNAL_BUS              internalBus                     2807.660761
+                                                                    h, n
+IOVal_reg_0_              DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+IOVal_reg_1_              DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+IOVal_reg_2_              DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+IOVal_reg_3_              DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+IOVal_reg_4_              DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+IOVal_reg_5_              DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+IOVal_reg_6_              DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+IOVal_reg_7_              DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+MEM_memDataOUT_tri2_0_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri2_1_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri2_2_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri2_3_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri2_4_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri2_5_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri2_6_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri2_7_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_0_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_1_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_2_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_3_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_4_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_5_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_6_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri3_7_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_0_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_1_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_2_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_3_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_4_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_5_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_6_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri4_7_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_0_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_1_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_2_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_3_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_4_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_5_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_6_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri5_7_    TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_0_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_1_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_2_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_3_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_4_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_5_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_6_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+MEM_memDataOUT_tri_7_     TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SPI_CU                    SPIController                   5044.569616
+                                                                    h, n
+SRAM_In_tri_0_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_In_tri_1_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_In_tri_2_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_In_tri_3_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_In_tri_4_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_In_tri_5_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_In_tri_6_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_In_tri_7_            TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_0_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_1_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_2_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_3_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_4_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_5_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_6_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_7_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_8_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_9_       TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_10_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+SRAM_address_tri_11_      TBUF_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 n
+TMR                       timerIO                         9123.251261
+                                                                    h, n
+U327                      TIELO_A7TULL    sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U328                      BUF_X5_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U329                      NOR2_X6_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U330                      NOR3_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U331                      NOR2_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U332                      NOR2_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U333                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U334                      NAND4_X6_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          37.318401 
+U335                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U336                      NAND4B_X1_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          15.366400 
+U337                      OA21_X4_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U338                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U339                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U340                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U341                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U342                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U343                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U344                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U345                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U346                      NOR3_X4_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U347                      AND2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U348                      OR2_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U349                      AND4_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          15.366400 
+U350                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U351                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U352                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U353                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U354                      CLKNAND2_X12_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          28.537600 
+U355                      NOR2_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U356                      NOR3_X4_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U357                      AND3_X6_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          26.342400 
+U358                      OAI2BB2_X8_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 
+U359                      AOI2BB1_X8_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          35.123199 
+U360                      BUF_X4_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U361                      NAND4_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U362                      BUF_X4_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U363                      NOR2B_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U364                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U365                      NOR4B_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          26.342400 
+U366                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U367                      NOR4_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U368                      NAND4_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U369                      NOR2_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U370                      NOR4_X4_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          39.513599 
+U371                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U372                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U373                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U374                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U375                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U376                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U377                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U378                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U379                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U380                      OAI222_XL_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          19.756800 
+U381                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U382                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U383                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U384                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U385                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U386                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U387                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U388                      AND3_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U389                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U390                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U391                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U392                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U393                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U394                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U395                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U396                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U397                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U398                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U399                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U400                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U401                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U402                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U403                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U404                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U405                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U406                      CLKINV_X2_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U407                      NOR2_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U408                      NOR2_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U409                      NOR2_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U410                      NOR2_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U411                      NOR2_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U412                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U413                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U414                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U415                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U416                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U417                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U418                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U419                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U420                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U421                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U422                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U423                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U424                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U425                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U426                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U427                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U428                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U429                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U430                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U431                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U432                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U433                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U434                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U435                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U436                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U437                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U438                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U439                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U440                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U441                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U442                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U443                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U444                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U445                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U446                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U447                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U448                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U449                      NAND2_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U450                      AND3_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U451                      OAI22_XL_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U452                      NAND4_X6_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          37.318401 
+U453                      NOR4_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U454                      NOR3_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U455                      NOR3_XL_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U456                      AND3_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U457                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U458                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U459                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U460                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U461                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U462                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U463                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U464                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U465                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U466                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U467                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U468                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U469                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U470                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U471                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U472                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U473                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U474                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U475                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U476                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U477                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U478                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U479                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U480                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U481                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U482                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U483                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U484                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U485                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U486                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U487                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U488                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U489                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U490                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U491                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U492                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U493                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U494                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U495                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U496                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U497                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U498                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U499                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U500                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U501                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U502                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U503                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U504                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U505                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U506                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U507                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U508                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U509                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U510                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U511                      OAI22_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U512                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U513                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U514                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U515                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U516                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U517                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U518                      AOI21_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U519                      BUF_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U520                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U521                      NOR4_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U522                      NOR4_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U523                      NAND4B_X1_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          15.366400 
+U524                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U525                      NOR4B_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          15.366400 
+U526                      NOR4B_X1_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          15.366400 
+U527                      NOR4_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U528                      NOR4_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U529                      NOR4_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U530                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U531                      OR4_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          15.366400 
+U532                      AND3_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U533                      NOR3_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U534                      AND3_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U535                      NOR3_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U536                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U537                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U538                      NAND3_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U539                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U540                      OR2_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U541                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U542                      OR3_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U543                      OR2_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U544                      NAND4_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          13.171200 
+U545                      OR2_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U546                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U547                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U548                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U549                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U550                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U551                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U552                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U553                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U554                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U555                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U556                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U557                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U558                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U559                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U560                      NAND2B_X2_A7TULL
+                                          sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U561                      NOR2_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U562                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U563                      NAND2_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          8.780800  
+U564                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U565                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U566                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U567                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U568                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U569                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U570                      OR2_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          10.976000 
+U571                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U572                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U573                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U574                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U575                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U576                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U577                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U578                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U579                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U580                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U581                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U582                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U583                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U584                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U585                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U586                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U587                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U588                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U589                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U590                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U591                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U592                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U593                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U594                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U595                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U596                      AO22_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          17.561600 
+U597                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U598                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U599                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U600                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U601                      INV_X2_A7TULL   sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+U602                      TIEHI_A7TULL    sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          6.585600  
+URT                       UART_interface                  21879.558338
+                                                                    h, n
+add_333                   MCU_DW01_inc_0                  882.470387
+                                                                    BO, h
+cnt_reg_0_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_1_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_2_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_3_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_4_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_5_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_6_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_7_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_8_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_9_                DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_10_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_11_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_12_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_13_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_14_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_15_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_16_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_17_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_18_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_19_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_20_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_21_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_22_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_23_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_24_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_25_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_26_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_27_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_28_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_29_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_30_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+cnt_reg_31_               DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+eq_335                    MCU_DW01_cmp6_0                 790.271988
+                                                                    BO, h
+offChipVal_reg_0_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_1_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_2_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_3_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_4_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_5_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_6_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_7_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_8_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_9_         DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_10_        DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_11_        DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_12_        DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_13_        DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_14_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_15_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_16_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_17_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_18_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_19_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_20_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_21_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_22_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_23_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_24_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_25_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_26_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_27_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_28_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_29_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_30_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+offChipVal_reg_31_        DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_0_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_1_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_2_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_3_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_4_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_5_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_6_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_7_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_8_          DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_9_          DFFS_X1_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_10_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_11_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_12_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_13_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_14_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_15_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_16_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_17_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_18_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_19_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_20_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_21_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_22_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_23_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_24_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_25_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_26_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_27_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_28_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_29_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_30_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+onChipVal_reg_31_         DFFR_X2_A7TULL  sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          50.489601 n
+readyReg_reg_0_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_1_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_2_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_3_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_4_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_5_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_6_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_7_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_8_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_9_           DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_10_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_11_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_12_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_13_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_14_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_15_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_16_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_17_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_18_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_19_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_20_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_21_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_22_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_23_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_24_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_25_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_26_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_27_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_28_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_29_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_30_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+readyReg_reg_31_          DFFRQ_X2_A7TULL sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+                                                          46.099201 n
+--------------------------------------------------------------------------------
+Total 489 cells                                           349767.802481
+1

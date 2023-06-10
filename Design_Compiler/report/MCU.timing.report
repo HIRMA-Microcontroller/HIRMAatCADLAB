@@ -1,0 +1,347 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MCU
+Version: L-2016.03-SP1
+Date   : Sat Jun 10 23:50:24 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt_typ_max_1p80v_25c   Library: sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+Wire Load Model Mode: top
+
+  Startpoint: CORE/datapath/DARU/DP/cntrNumBytes/dataOut_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: TMR/initialLoad/pout_reg_24_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  MCU                Small                 sc7_ch018ull_base_rvt_tt_typ_max_1p80v_25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  CORE/datapath/DARU/DP/cntrNumBytes/dataOut_reg_0_/CK (DFFRHQ_X4_A7TULL)
+                                                          0.00 #     0.00 r
+  CORE/datapath/DARU/DP/cntrNumBytes/dataOut_reg_0_/Q (DFFRHQ_X4_A7TULL)
+                                                          0.38       0.38 r
+  CORE/datapath/DARU/DP/cntrNumBytes/dataOut[0] (aftab_counter_size2_0)
+                                                          0.00       0.38 r
+  CORE/datapath/DARU/DP/Adder/b[0] (aftab_opt_adder_size32)
+                                                          0.00       0.38 r
+  CORE/datapath/DARU/DP/Adder/full_adder1/b[0] (aftab_adder_size1_31)
+                                                          0.00       0.38 r
+  CORE/datapath/DARU/DP/Adder/full_adder1/U1/Y (NAND2_X2_A7TULL)
+                                                          0.16       0.54 f
+  CORE/datapath/DARU/DP/Adder/full_adder1/U6/Y (NAND2_X4_A7TULL)
+                                                          0.15       0.69 r
+  CORE/datapath/DARU/DP/Adder/full_adder1/U4/Y (NAND2_X8_A7TULL)
+                                                          0.10       0.79 f
+  CORE/datapath/DARU/DP/Adder/full_adder1/U2/Y (NAND2_X12_A7TULL)
+                                                          0.10       0.90 r
+  CORE/datapath/DARU/DP/Adder/full_adder1/cout (aftab_adder_size1_31)
+                                                          0.00       0.90 r
+  CORE/datapath/DARU/DP/Adder/full_adder2/cin (aftab_adder_size1_30)
+                                                          0.00       0.90 r
+  CORE/datapath/DARU/DP/Adder/full_adder2/U4/Y (XOR2_X8_A7TULL)
+                                                          0.11       1.01 f
+  CORE/datapath/DARU/DP/Adder/full_adder2/U2/Y (CLKNAND2_X4_A7TULL)
+                                                          0.09       1.10 r
+  CORE/datapath/DARU/DP/Adder/full_adder2/U1/Y (NAND2_X4_A7TULL)
+                                                          0.14       1.24 f
+  CORE/datapath/DARU/DP/Adder/full_adder2/cout (aftab_adder_size1_30)
+                                                          0.00       1.24 f
+  CORE/datapath/DARU/DP/Adder/half_adders_2__half_adder/b[0] (aftab_adder_size1_29)
+                                                          0.00       1.24 f
+  CORE/datapath/DARU/DP/Adder/half_adders_2__half_adder/U2/Y (XOR2_X8_A7TULL)
+                                                          0.17       1.41 f
+  CORE/datapath/DARU/DP/Adder/half_adders_2__half_adder/U1/Y (AO22_X8_A7TULL)
+                                                          0.28       1.69 f
+  CORE/datapath/DARU/DP/Adder/half_adders_2__half_adder/cout (aftab_adder_size1_29)
+                                                          0.00       1.69 f
+  CORE/datapath/DARU/DP/Adder/half_adders_3__half_adder/b[0] (aftab_adder_size1_28)
+                                                          0.00       1.69 f
+  CORE/datapath/DARU/DP/Adder/half_adders_3__half_adder/U2/Y (XOR2_X8_A7TULL)
+                                                          0.15       1.84 f
+  CORE/datapath/DARU/DP/Adder/half_adders_3__half_adder/U1/Y (AO22_X8_A7TULL)
+                                                          0.27       2.11 f
+  CORE/datapath/DARU/DP/Adder/half_adders_3__half_adder/cout (aftab_adder_size1_28)
+                                                          0.00       2.11 f
+  CORE/datapath/DARU/DP/Adder/half_adders_4__half_adder/b[0] (aftab_adder_size1_27)
+                                                          0.00       2.11 f
+  CORE/datapath/DARU/DP/Adder/half_adders_4__half_adder/U2/Y (XOR2_X8_A7TULL)
+                                                          0.14       2.25 f
+  CORE/datapath/DARU/DP/Adder/half_adders_4__half_adder/U1/Y (AO22_X4_A7TULL)
+                                                          0.29       2.54 f
+  CORE/datapath/DARU/DP/Adder/half_adders_4__half_adder/cout (aftab_adder_size1_27)
+                                                          0.00       2.54 f
+  CORE/datapath/DARU/DP/Adder/half_adders_5__half_adder/b[0] (aftab_adder_size1_26)
+                                                          0.00       2.54 f
+  CORE/datapath/DARU/DP/Adder/half_adders_5__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.16       2.70 f
+  CORE/datapath/DARU/DP/Adder/half_adders_5__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.48       3.19 f
+  CORE/datapath/DARU/DP/Adder/half_adders_5__half_adder/cout (aftab_adder_size1_26)
+                                                          0.00       3.19 f
+  CORE/datapath/DARU/DP/Adder/half_adders_6__half_adder/b[0] (aftab_adder_size1_25)
+                                                          0.00       3.19 f
+  CORE/datapath/DARU/DP/Adder/half_adders_6__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.21       3.40 f
+  CORE/datapath/DARU/DP/Adder/half_adders_6__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.48       3.88 f
+  CORE/datapath/DARU/DP/Adder/half_adders_6__half_adder/cout (aftab_adder_size1_25)
+                                                          0.00       3.88 f
+  CORE/datapath/DARU/DP/Adder/half_adders_7__half_adder/b[0] (aftab_adder_size1_24)
+                                                          0.00       3.88 f
+  CORE/datapath/DARU/DP/Adder/half_adders_7__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.21       4.09 f
+  CORE/datapath/DARU/DP/Adder/half_adders_7__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.50       4.59 f
+  CORE/datapath/DARU/DP/Adder/half_adders_7__half_adder/cout (aftab_adder_size1_24)
+                                                          0.00       4.59 f
+  CORE/datapath/DARU/DP/Adder/half_adders_8__half_adder/b[0] (aftab_adder_size1_23)
+                                                          0.00       4.59 f
+  CORE/datapath/DARU/DP/Adder/half_adders_8__half_adder/U2/Y (XOR2_X4_A7TULL)
+                                                          0.22       4.81 f
+  CORE/datapath/DARU/DP/Adder/half_adders_8__half_adder/U1/Y (AO22_X4_A7TULL)
+                                                          0.30       5.11 f
+  CORE/datapath/DARU/DP/Adder/half_adders_8__half_adder/cout (aftab_adder_size1_23)
+                                                          0.00       5.11 f
+  CORE/datapath/DARU/DP/Adder/half_adders_9__half_adder/b[0] (aftab_adder_size1_22)
+                                                          0.00       5.11 f
+  CORE/datapath/DARU/DP/Adder/half_adders_9__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.16       5.27 f
+  CORE/datapath/DARU/DP/Adder/half_adders_9__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.48       5.75 f
+  CORE/datapath/DARU/DP/Adder/half_adders_9__half_adder/cout (aftab_adder_size1_22)
+                                                          0.00       5.75 f
+  CORE/datapath/DARU/DP/Adder/half_adders_10__half_adder/b[0] (aftab_adder_size1_21)
+                                                          0.00       5.75 f
+  CORE/datapath/DARU/DP/Adder/half_adders_10__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.21       5.96 f
+  CORE/datapath/DARU/DP/Adder/half_adders_10__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.50       6.46 f
+  CORE/datapath/DARU/DP/Adder/half_adders_10__half_adder/cout (aftab_adder_size1_21)
+                                                          0.00       6.46 f
+  CORE/datapath/DARU/DP/Adder/half_adders_11__half_adder/b[0] (aftab_adder_size1_20)
+                                                          0.00       6.46 f
+  CORE/datapath/DARU/DP/Adder/half_adders_11__half_adder/U2/Y (XOR2_X4_A7TULL)
+                                                          0.22       6.68 f
+  CORE/datapath/DARU/DP/Adder/half_adders_11__half_adder/U1/Y (AO22_X4_A7TULL)
+                                                          0.30       6.98 f
+  CORE/datapath/DARU/DP/Adder/half_adders_11__half_adder/cout (aftab_adder_size1_20)
+                                                          0.00       6.98 f
+  CORE/datapath/DARU/DP/Adder/half_adders_12__half_adder/b[0] (aftab_adder_size1_19)
+                                                          0.00       6.98 f
+  CORE/datapath/DARU/DP/Adder/half_adders_12__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.16       7.14 f
+  CORE/datapath/DARU/DP/Adder/half_adders_12__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.48       7.61 f
+  CORE/datapath/DARU/DP/Adder/half_adders_12__half_adder/cout (aftab_adder_size1_19)
+                                                          0.00       7.61 f
+  CORE/datapath/DARU/DP/Adder/half_adders_13__half_adder/b[0] (aftab_adder_size1_18)
+                                                          0.00       7.61 f
+  CORE/datapath/DARU/DP/Adder/half_adders_13__half_adder/U1/Y (XOR2_X2_A7TULL)
+                                                          0.27       7.88 f
+  CORE/datapath/DARU/DP/Adder/half_adders_13__half_adder/U2/Y (AO22_X4_A7TULL)
+                                                          0.31       8.19 f
+  CORE/datapath/DARU/DP/Adder/half_adders_13__half_adder/cout (aftab_adder_size1_18)
+                                                          0.00       8.19 f
+  CORE/datapath/DARU/DP/Adder/half_adders_14__half_adder/b[0] (aftab_adder_size1_17)
+                                                          0.00       8.19 f
+  CORE/datapath/DARU/DP/Adder/half_adders_14__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.16       8.35 f
+  CORE/datapath/DARU/DP/Adder/half_adders_14__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.50       8.85 f
+  CORE/datapath/DARU/DP/Adder/half_adders_14__half_adder/cout (aftab_adder_size1_17)
+                                                          0.00       8.85 f
+  CORE/datapath/DARU/DP/Adder/half_adders_15__half_adder/b[0] (aftab_adder_size1_16)
+                                                          0.00       8.85 f
+  CORE/datapath/DARU/DP/Adder/half_adders_15__half_adder/U2/Y (XOR2_X4_A7TULL)
+                                                          0.22       9.07 f
+  CORE/datapath/DARU/DP/Adder/half_adders_15__half_adder/U1/Y (AO22_X4_A7TULL)
+                                                          0.30       9.37 f
+  CORE/datapath/DARU/DP/Adder/half_adders_15__half_adder/cout (aftab_adder_size1_16)
+                                                          0.00       9.37 f
+  CORE/datapath/DARU/DP/Adder/half_adders_16__half_adder/b[0] (aftab_adder_size1_15)
+                                                          0.00       9.37 f
+  CORE/datapath/DARU/DP/Adder/half_adders_16__half_adder/U2/Y (XOR2_X3_A7TULL)
+                                                          0.19       9.55 f
+  CORE/datapath/DARU/DP/Adder/half_adders_16__half_adder/U1/Y (AO22_X2_A7TULL)
+                                                          0.37       9.92 f
+  CORE/datapath/DARU/DP/Adder/half_adders_16__half_adder/cout (aftab_adder_size1_15)
+                                                          0.00       9.92 f
+  CORE/datapath/DARU/DP/Adder/half_adders_17__half_adder/b[0] (aftab_adder_size1_14)
+                                                          0.00       9.92 f
+  CORE/datapath/DARU/DP/Adder/half_adders_17__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.22      10.14 f
+  CORE/datapath/DARU/DP/Adder/half_adders_17__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      10.62 f
+  CORE/datapath/DARU/DP/Adder/half_adders_17__half_adder/cout (aftab_adder_size1_14)
+                                                          0.00      10.62 f
+  CORE/datapath/DARU/DP/Adder/half_adders_18__half_adder/b[0] (aftab_adder_size1_13)
+                                                          0.00      10.62 f
+  CORE/datapath/DARU/DP/Adder/half_adders_18__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      10.87 f
+  CORE/datapath/DARU/DP/Adder/half_adders_18__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      11.34 f
+  CORE/datapath/DARU/DP/Adder/half_adders_18__half_adder/cout (aftab_adder_size1_13)
+                                                          0.00      11.34 f
+  CORE/datapath/DARU/DP/Adder/half_adders_19__half_adder/b[0] (aftab_adder_size1_12)
+                                                          0.00      11.34 f
+  CORE/datapath/DARU/DP/Adder/half_adders_19__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      11.59 f
+  CORE/datapath/DARU/DP/Adder/half_adders_19__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      12.07 f
+  CORE/datapath/DARU/DP/Adder/half_adders_19__half_adder/cout (aftab_adder_size1_12)
+                                                          0.00      12.07 f
+  CORE/datapath/DARU/DP/Adder/half_adders_20__half_adder/b[0] (aftab_adder_size1_11)
+                                                          0.00      12.07 f
+  CORE/datapath/DARU/DP/Adder/half_adders_20__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      12.32 f
+  CORE/datapath/DARU/DP/Adder/half_adders_20__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      12.79 f
+  CORE/datapath/DARU/DP/Adder/half_adders_20__half_adder/cout (aftab_adder_size1_11)
+                                                          0.00      12.79 f
+  CORE/datapath/DARU/DP/Adder/half_adders_21__half_adder/b[0] (aftab_adder_size1_10)
+                                                          0.00      12.79 f
+  CORE/datapath/DARU/DP/Adder/half_adders_21__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      13.04 f
+  CORE/datapath/DARU/DP/Adder/half_adders_21__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      13.51 f
+  CORE/datapath/DARU/DP/Adder/half_adders_21__half_adder/cout (aftab_adder_size1_10)
+                                                          0.00      13.51 f
+  CORE/datapath/DARU/DP/Adder/half_adders_22__half_adder/b[0] (aftab_adder_size1_9)
+                                                          0.00      13.51 f
+  CORE/datapath/DARU/DP/Adder/half_adders_22__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      13.76 f
+  CORE/datapath/DARU/DP/Adder/half_adders_22__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      14.24 f
+  CORE/datapath/DARU/DP/Adder/half_adders_22__half_adder/cout (aftab_adder_size1_9)
+                                                          0.00      14.24 f
+  CORE/datapath/DARU/DP/Adder/half_adders_23__half_adder/b[0] (aftab_adder_size1_8)
+                                                          0.00      14.24 f
+  CORE/datapath/DARU/DP/Adder/half_adders_23__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      14.49 f
+  CORE/datapath/DARU/DP/Adder/half_adders_23__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      14.96 f
+  CORE/datapath/DARU/DP/Adder/half_adders_23__half_adder/cout (aftab_adder_size1_8)
+                                                          0.00      14.96 f
+  CORE/datapath/DARU/DP/Adder/half_adders_24__half_adder/b[0] (aftab_adder_size1_7)
+                                                          0.00      14.96 f
+  CORE/datapath/DARU/DP/Adder/half_adders_24__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      15.21 f
+  CORE/datapath/DARU/DP/Adder/half_adders_24__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      15.69 f
+  CORE/datapath/DARU/DP/Adder/half_adders_24__half_adder/cout (aftab_adder_size1_7)
+                                                          0.00      15.69 f
+  CORE/datapath/DARU/DP/Adder/half_adders_25__half_adder/b[0] (aftab_adder_size1_6)
+                                                          0.00      15.69 f
+  CORE/datapath/DARU/DP/Adder/half_adders_25__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      15.94 f
+  CORE/datapath/DARU/DP/Adder/half_adders_25__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      16.41 f
+  CORE/datapath/DARU/DP/Adder/half_adders_25__half_adder/cout (aftab_adder_size1_6)
+                                                          0.00      16.41 f
+  CORE/datapath/DARU/DP/Adder/half_adders_26__half_adder/b[0] (aftab_adder_size1_5)
+                                                          0.00      16.41 f
+  CORE/datapath/DARU/DP/Adder/half_adders_26__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      16.66 f
+  CORE/datapath/DARU/DP/Adder/half_adders_26__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      17.13 f
+  CORE/datapath/DARU/DP/Adder/half_adders_26__half_adder/cout (aftab_adder_size1_5)
+                                                          0.00      17.13 f
+  CORE/datapath/DARU/DP/Adder/half_adders_27__half_adder/b[0] (aftab_adder_size1_4)
+                                                          0.00      17.13 f
+  CORE/datapath/DARU/DP/Adder/half_adders_27__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      17.39 f
+  CORE/datapath/DARU/DP/Adder/half_adders_27__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      17.86 f
+  CORE/datapath/DARU/DP/Adder/half_adders_27__half_adder/cout (aftab_adder_size1_4)
+                                                          0.00      17.86 f
+  CORE/datapath/DARU/DP/Adder/half_adders_28__half_adder/b[0] (aftab_adder_size1_3)
+                                                          0.00      17.86 f
+  CORE/datapath/DARU/DP/Adder/half_adders_28__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      18.11 f
+  CORE/datapath/DARU/DP/Adder/half_adders_28__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.47      18.58 f
+  CORE/datapath/DARU/DP/Adder/half_adders_28__half_adder/cout (aftab_adder_size1_3)
+                                                          0.00      18.58 f
+  CORE/datapath/DARU/DP/Adder/half_adders_29__half_adder/b[0] (aftab_adder_size1_2)
+                                                          0.00      18.58 f
+  CORE/datapath/DARU/DP/Adder/half_adders_29__half_adder/U2/Y (XOR2_X2_A7TULL)
+                                                          0.25      18.83 f
+  CORE/datapath/DARU/DP/Adder/half_adders_29__half_adder/U3/Y (AO22_X1_A7TULL)
+                                                          0.51      19.35 f
+  CORE/datapath/DARU/DP/Adder/half_adders_29__half_adder/cout (aftab_adder_size1_2)
+                                                          0.00      19.35 f
+  CORE/datapath/DARU/DP/Adder/half_adders_30__half_adder/b[0] (aftab_adder_size1_1)
+                                                          0.00      19.35 f
+  CORE/datapath/DARU/DP/Adder/half_adders_30__half_adder/U2/Y (XOR2_X4_A7TULL)
+                                                          0.22      19.57 f
+  CORE/datapath/DARU/DP/Adder/half_adders_30__half_adder/U1/Y (AO22_X4_A7TULL)
+                                                          0.30      19.87 f
+  CORE/datapath/DARU/DP/Adder/half_adders_30__half_adder/cout (aftab_adder_size1_1)
+                                                          0.00      19.87 f
+  CORE/datapath/DARU/DP/Adder/half_adders_31__half_adder/b[0] (aftab_adder_size1_0)
+                                                          0.00      19.87 f
+  CORE/datapath/DARU/DP/Adder/half_adders_31__half_adder/U2/Y (XOR2_X4_A7TULL)
+                                                          0.17      20.04 f
+  CORE/datapath/DARU/DP/Adder/half_adders_31__half_adder/U1/Y (XOR2_X4_A7TULL)
+                                                          0.18      20.22 f
+  CORE/datapath/DARU/DP/Adder/half_adders_31__half_adder/sum[0] (aftab_adder_size1_0)
+                                                          0.00      20.22 f
+  CORE/datapath/DARU/DP/Adder/sum[31] (aftab_opt_adder_size32)
+                                                          0.00      20.22 f
+  CORE/datapath/DARU/DP/addrOut_tri_31_/Y (TBUF_X2_A7TULL)
+                                                          0.37      20.60 f
+  CORE/datapath/DARU/DP/addrOut[31] (aftab_DARU_datapath_size32)
+                                                          0.00      20.60 f
+  CORE/datapath/DARU/addrOut[31] (aftab_MEM_DARU_size32)
+                                                          0.00      20.60 f
+  CORE/datapath/memAddrDARU[31] (aftab_datapath_size32)
+                                                          0.00      20.60 f
+  CORE/memAddr[31] (aftab_core_size32)                    0.00      20.60 f
+  INTERNAL_BUS/MASTER2_ADD[31] (internalBus)              0.00      20.60 f
+  INTERNAL_BUS/U26/Y (AO22_X2_A7TULL)                     0.33      20.93 f
+  INTERNAL_BUS/ADD_BUS_tri_31_/Y (TBUF_X2_A7TULL)         0.33      21.26 f
+  INTERNAL_BUS/SLAVE_ADD_tri_31_/Y (TBUF_X8_A7TULL)       0.24      21.50 f
+  INTERNAL_BUS/SLAVE_ADD[31] (internalBus)                0.00      21.50 f
+  U531/Y (OR4_X2_A7TULL)                                  0.48      21.99 f
+  U370/Y (NOR4_X4_A7TULL)                                 0.22      22.20 r
+  U334/Y (NAND4_X6_A7TULL)                                0.24      22.44 f
+  U329/Y (NOR2_X6_A7TULL)                                 0.24      22.68 r
+  U357/Y (AND3_X6_A7TULL)                                 0.21      22.89 r
+  U364/Y (NAND2_X2_A7TULL)                                0.21      23.10 f
+  U335/Y (NOR2_X2_A7TULL)                                 0.29      23.38 r
+  TMR/ilLoad1 (timerIO)                                   0.00      23.38 r
+  TMR/initialLoad/load1 (interleavedRegister_1)           0.00      23.38 r
+  TMR/initialLoad/U14/Y (INV_X1_A7TULL)                   0.32      23.70 f
+  TMR/initialLoad/U10/Y (NAND4B_X1_A7TULL)                0.22      23.92 r
+  TMR/initialLoad/U5/Y (NAND2_X2_A7TULL)                  0.18      24.10 f
+  TMR/initialLoad/U11/Y (INV_X2_A7TULL)                   0.33      24.44 r
+  TMR/initialLoad/U43/Y (OAI2BB2_X1_A7TULL)               0.31      24.74 r
+  TMR/initialLoad/pout_reg_24_/D (DFFRQ_X2_A7TULL)        0.00      24.74 r
+  data arrival time                                                 24.74
+
+  clock clk (rise edge)                                  25.00      25.00
+  clock network delay (ideal)                             0.00      25.00
+  TMR/initialLoad/pout_reg_24_/CK (DFFRQ_X2_A7TULL)       0.00      25.00 r
+  library setup time                                     -0.25      24.75
+  data required time                                                24.75
+  --------------------------------------------------------------------------
+  data required time                                                24.75
+  data arrival time                                                -24.74
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1

@@ -1,0 +1,576 @@
+{D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_TB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_TB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DARU_TB
+
+Top level modules:
+	aftab_DARU_TB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider_datapath.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider_datapath.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_divider_datapath
+
+Top level modules:
+	aftab_divider_datapath
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_MEM_DARU.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_MEM_DARU.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_MEM_DARU
+
+Top level modules:
+	aftab_MEM_DARU
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_memory_segment.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_memory_segment.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_memory_segment
+
+Top level modules:
+	aftab_memory_segment
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/wrapper.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/wrapper.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module wrapper
+
+Top level modules:
+	wrapper
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/FLASH_Controller.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/FLASH_Controller.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module FLASH_Controller
+
+Top level modules:
+	FLASH_Controller
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_errorDetector.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_errorDetector.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DARU_errorDetector
+
+Top level modules:
+	aftab_DARU_errorDetector
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Communicaion/externalBus.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Communicaion/externalBus.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module externalBus
+
+Top level modules:
+	externalBus
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_TCL.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_TCL.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_TCL
+
+Top level modules:
+	aftab_TCL
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_counter.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_counter.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_CSR_counter
+
+Top level modules:
+	aftab_CSR_counter
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_decoder2to4.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_decoder2to4.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_decoder2to4
+
+Top level modules:
+	aftab_decoder2to4
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/SectorsController.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/SectorsController.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module SectorsController
+
+Top level modules:
+	SectorsController
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/SPIController.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/SPIController.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module SPIController
+
+Top level modules:
+	SPIController
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/counter.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/counter.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_opt_adder.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_opt_adder.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_opt_adder
+
+Top level modules:
+	aftab_opt_adder
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_controller.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_controller.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DARU_controller
+
+Top level modules:
+	aftab_DARU_controller
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_sgn_divider_TB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_sgn_divider_TB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_sgn_divider_TB
+
+Top level modules:
+	aftab_sgn_divider_TB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/fifo.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/fifo.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSRISL.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSRISL.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_CSRISL
+
+Top level modules:
+	aftab_CSRISL
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Timer/counterIO.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Timer/counterIO.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module counterIO
+
+Top level modules:
+	counterIO
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Communicaion/internalBus.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Communicaion/internalBus.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module internalBus
+
+Top level modules:
+	internalBus
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_memory_model.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_memory_model.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_memory_model
+
+Top level modules:
+	aftab_memory_model
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Timer/timer.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Timer/timer.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module timerIO
+
+Top level modules:
+	timerIO
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_MEM_DAWU.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_MEM_DAWU.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_MEM_DAWU
+
+Top level modules:
+	aftab_MEM_DAWU
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_ICCD.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_ICCD.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_ICCD
+
+Top level modules:
+	aftab_ICCD
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_LLU.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_LLU.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_LLU
+
+Top level modules:
+	aftab_LLU
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_controller.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_controller.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_controller
+
+Top level modules:
+	aftab_controller
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Timer/registerIO.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Timer/registerIO.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module CNFregister
+
+Top level modules:
+	CNFregister
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_booth_controller.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_booth_controller.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_booth_controller
+
+Top level modules:
+	aftab_booth_controller
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/UART/UART_interface.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/UART/UART_interface.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module UART_interface
+
+Top level modules:
+	UART_interface
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_immSelSignExt.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_immSelSignExt.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_immSelSignExt
+
+Top level modules:
+	aftab_immSelSignExt
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_errorDetector.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_errorDetector.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DAWU_errorDetector
+
+Top level modules:
+	aftab_DAWU_errorDetector
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Timer/interleavedRegister.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Timer/interleavedRegister.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module interleavedRegister
+
+Top level modules:
+	interleavedRegister
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_booth_datapath.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_booth_datapath.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_booth_datapath
+
+Top level modules:
+	aftab_booth_datapath
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/MCU_TB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/MCU_TB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module MCU_TB
+
+Top level modules:
+	MCU_TB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_mux2to1.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_mux2to1.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_mux2to1
+
+Top level modules:
+	aftab_mux2to1
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_counter.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_counter.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_counter
+
+Top level modules:
+	aftab_counter
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_signed_divider.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_signed_divider.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_signed_divider
+
+Top level modules:
+	aftab_signed_divider
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/SPI_adress_Register.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/SPI_adress_Register.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module SPI_address_Register
+
+Top level modules:
+	SPI_address_Register
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_registers.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_registers.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_CSR_registers
+
+Top level modules:
+	aftab_CSR_registers
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/UART/uart.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/UART/uart.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module uart
+
+Top level modules:
+	uart
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_shift_left_register.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_shift_left_register.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_shift_left_register
+
+Top level modules:
+	aftab_shift_left_register
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider_TB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider_TB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_divider_TB
+
+Top level modules:
+	aftab_divider_TB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_addressing_decoder.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_addressing_decoder.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_CSR_addressing_decoder
+
+Top level modules:
+	aftab_CSR_addressing_decoder
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_register_bank.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_register_bank.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_register_bank
+
+Top level modules:
+	aftab_register_bank
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_datapath.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_daru/aftab_DARU_datapath.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DARU_datapath
+
+Top level modules:
+	aftab_DARU_datapath
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_TB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_TB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DAWU_TB
+
+Top level modules:
+	aftab_DAWU_TB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_core.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_core.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_core
+
+Top level modules:
+	aftab_core
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Communicaion/arbiter.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Communicaion/arbiter.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module arbiter
+
+Top level modules:
+	arbiter
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_datapath.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_datapath.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DAWU_datapath
+
+Top level modules:
+	aftab_DAWU_datapath
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/flash_cms.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/flash_cms.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module flash_cms
+
+Top level modules:
+	flash_cms
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_adder.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_adder.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_adder
+
+Top level modules:
+	aftab_adder
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/MCU.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/MCU.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module MCU
+
+Top level modules:
+	MCU
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_oneBitReg.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_oneBitReg.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_oneBitReg
+
+Top level modules:
+	aftab_oneBitReg
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_register.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_register.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_register
+
+Top level modules:
+	aftab_register
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_check_non_existing.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_check_non_existing.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_check_non_existing
+
+Top level modules:
+	aftab_check_non_existing
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_mux4to1.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_mux4to1.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_mux4to1
+
+Top level modules:
+	aftab_mux4to1
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider_controller.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider_controller.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_divider_controller
+
+Top level modules:
+	aftab_divider_controller
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_comparator.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_comparator.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_comparator
+
+Top level modules:
+	aftab_comparator
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/SRAM_address_Register.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/SRAM_address_Register.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module SRAM_address_Register
+
+Top level modules:
+	SRAM_address_Register
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_sulu.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_sulu.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_sulu
+
+Top level modules:
+	aftab_sulu
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_controller.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_dawu/aftab_DAWU_controller.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_DAWU_controller
+
+Top level modules:
+	aftab_DAWU_controller
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_testbench.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_testbench.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_testbench
+
+Top level modules:
+	aftab_testbench
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/Virtual Flash/virtual_flash.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/Virtual Flash/virtual_flash.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module virtual_flash
+
+Top level modules:
+	virtual_flash
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_booth_multiplier.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_booth_multiplier.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_booth_multiplier
+
+Top level modules:
+	aftab_booth_multiplier
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_su_divider/aftab_divider.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_divider
+
+Top level modules:
+	aftab_divider
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_AAU_TB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_AAU_TB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_AAU_TB
+
+Top level modules:
+	aftab_AAU_TB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_BSU_TB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_BSU_TB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_BSU_TB
+
+Top level modules:
+	aftab_BSU_TB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_adder_subtractor.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_adder_subtractor.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_adder_subtractor
+
+Top level modules:
+	aftab_adder_subtractor
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_datapath.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/aftab_datapath.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_datapath
+
+Top level modules:
+	aftab_datapath
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_mux2to1_2sel.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_mux2to1_2sel.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_mux2to1_2sel
+
+Top level modules:
+	aftab_mux2to1_2sel
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_AAU.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_AAU.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_AAU
+
+Top level modules:
+	aftab_AAU
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_address_ctrl.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_address_ctrl.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_CSR_address_ctrl
+
+Top level modules:
+	aftab_CSR_address_ctrl
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_isagu.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_isagu.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_isagu
+
+Top level modules:
+	aftab_isagu
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_BSU.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_BSU.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_BSU
+-- Compiling module decoder
+
+Top level modules:
+	aftab_BSU
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_boothTB.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_aau/aftab_booth_multiplier/aftab_boothTB.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_boothTB
+
+Top level modules:
+	aftab_boothTB
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_address_logic.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_interrupt/aftab_CSR_address_logic.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_CSR_address_logic
+
+Top level modules:
+	aftab_CSR_address_logic
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/UART/uart_tx.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/UART/uart_tx.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/SPI/BytesCounter.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/SPI/BytesCounter.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module BytesCounter
+
+Top level modules:
+	BytesCounter
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_shift_right_register.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/baseModules/aftab_shift_right_register.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_shift_right_register
+
+Top level modules:
+	aftab_shift_right_register
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_registerFile.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/aftab_project/datapath/aftab_registerFile.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module aftab_registerFile
+
+Top level modules:
+	aftab_registerFile
+
+} {} {}} {D:/MCI/MicroController/version 4/MCU/UART/UART_reg.v} {1 {vlog -work work -nocovercells {D:/MCI/MicroController/version 4/MCU/UART/UART_reg.v}
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module UART_reg
+
+Top level modules:
+	UART_reg
+
+} {} {}}
