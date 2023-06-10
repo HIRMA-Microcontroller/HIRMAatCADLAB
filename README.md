@@ -17,3 +17,5 @@ Lastest version of the main project and other required programs are kept here.
       ------> MCU: .mpf + some test programs ( to test them, change .mem file in virtual_flash.v )
 * quartus:
       ------> MCU: .qpf for cycloneIV-GX, DE2-i150 evaluation board
+* Design_Compiler:
+      ------> MCU: DC Script and synthesis results
