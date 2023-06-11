@@ -8,7 +8,7 @@ Report : power
         -analysis_effort low
 Design : MCU
 Version: L-2016.03-SP1
-Date   : Sun Jun 11 12:24:57 2023
+Date   : Sun Jun 11 22:57:09 2023
 ****************************************
 
 
@@ -34,12 +34,12 @@ Power-specific unit information :
     Leakage Power Units = 1uW
 
 
-  Cell Internal Power  =   8.1252 mW   (96%)
-  Net Switching Power  = 329.0917 uW    (4%)
+  Cell Internal Power  =   8.2413 mW   (96%)
+  Net Switching Power  = 341.3369 uW    (4%)
                          ---------
-Total Dynamic Power    =   8.4543 mW  (100%)
+Total Dynamic Power    =   8.5826 mW  (100%)
 
-Cell Leakage Power     =  29.8528 nW
+Cell Leakage Power     =  30.1793 nW
 
 
                  Internal         Switching           Leakage            Total
@@ -49,9 +49,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           8.0773        8.1520e-03        1.2332e-02            8.0855  (  95.64%)
+register           8.1946        7.9152e-03        1.2383e-02            8.2025  (  95.57%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational  4.7550e-02            0.3209        1.7520e-02            0.3685  (   4.36%)
+combinational  4.6388e-02            0.3334        1.7796e-02            0.3798  (   4.43%)
 --------------------------------------------------------------------------------------------------
-Total              8.1249 mW         0.3291 mW     2.9852e-02 uW         8.4540 mW
+Total              8.2410 mW         0.3413 mW     3.0178e-02 uW         8.5824 mW
 1
