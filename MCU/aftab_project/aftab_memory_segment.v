@@ -62,9 +62,9 @@ module aftab_memory_segment #(
     wire cs;
 
     initial begin
-        if(filenum == 1)        $readmemb( "memCopy.mem", mem );
-        else if(filenum == 2)   $readmemb( "memCopy.mem", mem );
-        else $readmemb( "memCopy.mem", mem );
+        if(filenum == 1)        $readmemh( "memCopy.mem", mem );
+        else if(filenum == 2)   $readmemh( "memCopy.mem", mem );
+        else $readmemh( "memCopy.mem", mem );
     end
 
     assign cs = ((startingAddress <= addressBus) && (addressBus < (startingAddress + segmentSize))) ? 1'b1 : 1'b0;
