@@ -21,7 +21,9 @@ module externalBus (
     output EXT_MEM_READ,
     output EXT_MEM_WRITE,
     output AE,
-    inout [15:0] EXT_AD,
+    output DOE,
+    input [7:0] EXT_AD_IN,
+    output [15:0] EXT_AD_OUT,
     input EXT_MEM_READY,
 
     output inDO,
@@ -39,6 +41,8 @@ module externalBus (
     localparam [1:0] ADD_LOW = 2'b01;
     localparam [1:0] ADD_HIGH = 2'b10;
     localparam [1:0] DT = 2'b11;
+
+    wire [15:0] EXT_AD;
 
     reg [1:0] ps, ns;
 
@@ -73,10 +77,11 @@ module externalBus (
         endcase
     end
 
-    assign EXT_AD = (ADDtri) ? ((ADDsel == 1'b0) ? CPU_MEM_ADD[15:0] : CPU_MEM_ADD[31:16]) :
-                    (DTtri && CPU_MEM_WRITE) ? {8'b0, CPU_MEM_DATA_OUT} : 16'bz;
+    assign EXT_AD_OUT = (ADDtri) ? ((ADDsel == 1'b0) ? CPU_MEM_ADD[15:0] : CPU_MEM_ADD[31:16]) :
+                        (DTtri && CPU_MEM_WRITE) ? {8'b0, CPU_MEM_DATA_OUT} : 16'b0;
+    assign DOE = (DTtri && CPU_MEM_WRITE) ? 1'b1 : 1'b0;
 
-    assign CPU_MEM_DATA_IN = (DTtri && CPU_MEM_READ && EXT_MEM_READY) ? EXT_AD[7:0] : 8'bz;//changed
+    assign CPU_MEM_DATA_IN = (DTtri && CPU_MEM_READ && EXT_MEM_READY) ? EXT_AD_IN : 8'bz;//changed
     assign CPY_MEM_READY = EXT_MEM_READY;
     assign EXT_MEM_READ = CPU_MEM_READ;
     assign EXT_MEM_WRITE = CPU_MEM_WRITE;

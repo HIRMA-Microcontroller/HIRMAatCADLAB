@@ -10,21 +10,33 @@ module MCU (
     output EXT_READ,
     output EXT_WRITE,
     output AE,
-    inout [15:0] EXT_AD,
+    output OE,
+    output IE,
+    input [7:0] EXT_AD_IN,
+    output [15:0] EXT_AD_OUT,
     input EXT_READY,
 
-    output [11:0] SRAM_address,
-    output [7:0] SRAM_In,
-    output SRAM_Read,
-    output SRAM_Write,
-    input [7:0] SRAM_Out,
+	// add for FPGA testing
+	// output [11:0] SRAM_address,
+	// output [7:0] SRAM_In,
+	// input [7:0] SRAM_Out,
+	// output SRAM_Read,
+	// output SRAM_Write,
+	//
 
     input SPI_DO,
     output SPI_DI,
     output SPI_SCK,
-    output SPI_CSbar
+    output SPI_CSbar,
+    output EN
 );
-
+	 // remove for FPGA testing
+    wire [11:0] SRAM_address;
+    wire [7:0] SRAM_In;
+    wire SRAM_Read;
+    wire SRAM_Write;
+    wire [7:0] SRAM_Out;
+    wire DOE;
 
     wire CORE_memReady;
     wire [7:0] CORE_memData_IN;
@@ -46,6 +58,7 @@ module MCU (
     assign CORE_userExternalInterrupt = 1'b0;
     assign CORE_userSoftwareInterrupt = 1'b0;
     assign CORE_platformInterruptSignals = 16'b0;
+    assign EN = 1'b1;
 
     wire MEM_memReady;
     wire externalReady;
@@ -247,10 +260,68 @@ module MCU (
     );
 
     // -------------------------------------------------------------------------------------- SLAVE (Memory Ready Generator)
+    // For presynthesis testing
+	// remove for FPGA testing
+    // reg l1;
+    // reg l2;
+    // reg [7:0] sIn;
+    // reg swi;
+    // reg [11:0] sadd;
+    // always @(posedge clk)begin
+    //     #3;
+    //     l1 <= ((~SRAM_Read)&(~SRAM_Write));
+    //     l2 <= ((~SRAM_Read));
+    //     #2;
+    //     sIn <= SRAM_In;
+    //     sadd <= SRAM_address;
+    //     swi <= SRAM_Write;
+    // end
+    // RAM4096X8M16 SRAM (
+    //     .Q(SRAM_Out),
+    //     .CLK(clk),
+    //     .CEN(l1),
+    //     .WEN({~swi,~swi}),
+    //     .A(sadd),
+    //     .D(sIn),
+    //     .OEN(l2)
+    // );
+
+    // M31HDSP200GB180W_4096X8X1CM16 SRAM(
+    //     .A(sadd),
+    //     .D(sIn),
+    //     .MS(4'b0),
+    //     .Q(SRAM_Out),
+    //     .CEN(l1),
+    //     .CLK(clk),
+    //     .MSE(1'b0),
+    //     .WEN(~swi)
+    // );
+
+    M31HDSP200GB180W_4096X8X1CM16 SRAM(
+        .A(SRAM_address),
+        .D(SRAM_In),
+        .MS(4'b0000),
+        .Q(SRAM_Out),
+        .CEN(((~SRAM_Read)&(~SRAM_Write))),
+        .CLK(clk),
+        .MSE(1'b0),
+        .WEN((~SRAM_Write))
+    );
+
+    // RAM4096X8M16 SRAM (
+    //     .Q(SRAM_Out),
+    //     .CLK(clk),
+    //     .CEN(((~SRAM_Read)&(~SRAM_Write))),
+    //     .WEN({~SRAM_Write,~SRAM_Write}),
+    //     .A(SRAM_address),
+    //     .D(SRAM_In),
+    //     .OEN((~SRAM_Read))
+    // );
+
     assign IOEn = (MEM_memRead||MEM_memWrite) ? ((MEM_memAddr[31:20] == 12'h1A1) & (MEM_memAddr[19:17] == 3'b000)) : 1'b0;
     assign offChipEn = (MEM_memRead||MEM_memWrite) ? ((~(MEM_memAddr[31:12] == 20'b0)) & (IOEn == 1'b0)) : 1'b0;
-    assign SRAM_address = (~offChipEn) ? MEM_memAddr[11:0] : 12'bz;
-    assign SRAM_In = (~offChipEn) ? MEM_memDataIN : 8'bz;
+    assign SRAM_address = ((~offChipEn)&&(MEM_memRead||MEM_memWrite)) ? MEM_memAddr[11:0] : 12'b0;
+    assign SRAM_In = (MEM_memWrite==1'b1) ? MEM_memDataIN : 8'b00000000;
     assign SRAM_Read = MEM_memRead & (~offChipEn) & (~IOEn);
     assign SRAM_Write = MEM_memWrite & (~offChipEn) & (~IOEn);
     assign MEM_memDataOUT = (MEM_memRead == 1'b1 && (IOEn || offChipEn)) ? 8'bzzzzzzzz : SRAM_Out;
@@ -277,7 +348,7 @@ module MCU (
     reg [31:0] onChipVal;
     always @(posedge clk, posedge rst) begin
         if (rst)
-            onChipVal <= 32'h00000200;
+            onChipVal <= 32'h00000020;
         else if (onChipLd1)
             onChipVal[7:0] <= MEM_memDataIN;
         else if (onChipLd2)
@@ -383,7 +454,9 @@ module MCU (
         .EXT_MEM_READ(EXT_READ),
         .EXT_MEM_WRITE(EXT_WRITE),
         .AE(AE),
-        .EXT_AD(EXT_AD),
+        .EXT_AD_IN(EXT_AD_IN),
+        .EXT_AD_OUT(EXT_AD_OUT),
+        .DOE(DOE),
         .EXT_MEM_READY(internalReady|EXT_READY),
 
         .inDO(DO),
@@ -396,5 +469,6 @@ module MCU (
         .exSCK(SPI_SCK),
         .exCSbar(SPI_CSbar)
     );
-
+    assign OE = AE | DOE;
+    assign IE = ~OE;
 endmodule

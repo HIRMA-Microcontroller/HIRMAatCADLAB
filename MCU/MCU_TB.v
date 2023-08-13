@@ -8,7 +8,10 @@ module MCU_TB();
     wire EXT_READ;
     wire EXT_WRITE;
     wire AE;
-    wire [15:0] EXT_AD;
+    wire OE;
+    wire IE;
+    wire [15:0] EXT_AD_OUT;
+    wire [7:0] EXT_AD_IN;
     wire EXT_READY;
     wire DO;
     wire DI;
@@ -16,6 +19,7 @@ module MCU_TB();
     wire CSbar;
     wire RX;
     wire TX;
+    wire EN;
 
     wire MEM_memRead;
     wire MEM_memWrite;
@@ -23,7 +27,7 @@ module MCU_TB();
     wire [7:0] MEM_memDataIN;
     wire [7:0] MEM_memDataOut;
 
-    assign EXT_AD[7:0] = EXT_READY ? DT : 8'bzzzzzzzz;
+    assign EXT_AD_IN = EXT_READY ? DT : 8'b0;
     assign RX = TX;
     MCU MICRO_CONTROLLER(
         .clk(clk),
@@ -35,36 +39,18 @@ module MCU_TB();
 
         .EXT_READ(EXT_READ),
         .EXT_WRITE(EXT_WRITE),
-        .EXT_AD(EXT_AD),
+        .EXT_AD_IN(EXT_AD_IN),
+        .EXT_AD_OUT(EXT_AD_OUT),
         .AE(AE),
+        .OE(OE),
+        .IE(IE),
         .EXT_READY(EXT_READY),
-
-        .SRAM_address(MEM_memAddr),
-        .SRAM_In(MEM_memDataIN),
-        .SRAM_Read(MEM_memRead),
-        .SRAM_Write(MEM_memWrite),
-        .SRAM_Out(MEM_memDataOut),
 
         .SPI_DO(DO),
         .SPI_DI(DI),
         .SPI_SCK(SCK),
-        .SPI_CSbar(CSbar)
-    );
-
-    aftab_memory_model #(
-        .dataWidth(8),
-        .addressWidth(32),
-        .sector1Size(4096),
-        .sector2Size(4096),
-        .cycle(20),
-        .timer(3500)
-    ) MEMORY (
-        .readmem(MEM_memRead),
-        .writemem(MEM_memWrite),
-        .addressBus({20'b00000000000000000000,MEM_memAddr}),
-        .dataBusIn(MEM_memDataIN),
-        .dataBusOut(MEM_memDataOut),
-        .memDataReady()
+        .SPI_CSbar(CSbar),
+        .EN(EN)
     );
 
     reg status;
@@ -75,11 +61,11 @@ module MCU_TB();
         else if (AE == 1'b0)
             status <= 1'b0;
         else if (AE == 1'b1 && status == 1'b0) begin
-            add[15:0] <= EXT_AD;
+            add[15:0] <= EXT_AD_OUT;
             status <= 1'b1;
         end
         else if (AE == 1'b1 && status == 1'b1)begin
-            add[31:16] <= EXT_AD;
+            add[31:16] <= EXT_AD_OUT;
             status <= 1'b0;
         end
     end
@@ -89,7 +75,7 @@ module MCU_TB();
         if (rst)
             data <= 8'b0;
         else
-            data <= EXT_AD[7:0];
+            data <= EXT_AD_OUT[7:0];
     end
 
     wire offEn;
@@ -121,7 +107,7 @@ module MCU_TB();
         .DO(DO)
     );
 
-    always #20 clk = ~clk;
+    always #25 clk = ~clk;
 
     initial begin
         CORE_machineExternalInterrupt = 1'b0;
