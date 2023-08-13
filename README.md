@@ -2,7 +2,7 @@
 ICDC 2023 - Project
 Lastest version of the main project and other required programs are kept here.
 -----------------------------------------------------------------------------------------------------------
-* SPI: 
+* SPI: /n
       ------> SPI-Read: codes + vivado project
       ------> SPI-Write: codes + Vivado project
 * MCU:
@@ -19,3 +19,6 @@ Lastest version of the main project and other required programs are kept here.
       ------> MCU: .qpf for cycloneIV-GX, DE2-i150 evaluation board
 * Design_Compiler:
       ------> MCU: DC Script and synthesis results
+
+  
+
