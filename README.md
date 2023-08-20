@@ -40,11 +40,11 @@ MCU schematics in quartus:
 
 Interrupt validation programs and results:
 * Returning "Hello! I am AFTAB!" letter by letter after each interrupt:
-![image](https://github.com/AmirmahdiJoudi/Microcontroller/assets/79690242/efd55de0-8070-4ccf-ae29-fd1cdbf123ac)
+![bandicam-2023-08-01-17-39-54-947](https://github.com/AmirmahdiJoudi/Microcontroller/assets/79690242/6da54b5c-5e96-4422-8ab7-51de142332ff)
 
 
 * Returning the squared of the received value from UART with a 0x79 following that:
-  ![bandicam-2023-08-01-17-21-25-353](https://github.com/AmirmahdiJoudi/Microcontroller/assets/89470849/1313c68e-8a04-4f37-86b8-7d0d78eb3ca1)
+![bandicam-2023-08-01-17-21-25-353](https://github.com/AmirmahdiJoudi/Microcontroller/assets/79690242/8ba276bd-c579-4dfc-baac-527e7ec4c46e)
 
 
 
