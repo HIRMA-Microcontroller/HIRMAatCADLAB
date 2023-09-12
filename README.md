@@ -1,4 +1,4 @@
-# Microcontroller
+# HIRMAN Microcontroller
 CADLAB 2023 - Project
 ## Lastest version of the main project and other required programs are kept here.
 -----------------------------------------------------------------------------------------------------------
