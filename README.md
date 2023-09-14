@@ -21,7 +21,7 @@ CADLAB 2023 - Project
 * **Design_Compiler**:<br />
       &#8594; MCU: DC Script and synthesis results<br /><br /><br />
 ## The programmers View of the microcontroller:<br />
-
+![Untitled](https://github.com/AmirmahdiJoudi/HIRMAN-Microcontroller/assets/79690242/21ea6676-83a5-4b4b-8a2d-0b89337ed20d)   
 ![image](https://github.com/AmirmahdiJoudi/Microcontroller/assets/79690242/1718be13-6501-4600-bd76-e74bc090ce00)
 
 
@@ -38,6 +38,7 @@ CADLAB 2023 - Project
 
 * Returning the squared of the received value from UART with a 0x79 following that:
 ![bandicam-2023-08-01-17-21-25-353](https://github.com/AmirmahdiJoudi/Microcontroller/assets/79690242/8ba276bd-c579-4dfc-baac-527e7ec4c46e)
+
 
 
 
