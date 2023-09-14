@@ -1,4 +1,4 @@
-# HIRMAN Microcontroller
+# HIRMAN: High-performance Implementation for RISC-V Microcontroller Applications and Networks
 CADLAB 2023 - Project
 ## Lastest version of the main project and other required programs are kept here.
 -----------------------------------------------------------------------------------------------------------
